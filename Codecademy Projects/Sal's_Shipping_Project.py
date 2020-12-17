@@ -33,5 +33,3 @@ def cheapest(weight):
     return "Drone shipping is cheapest. It would cost $" +drone+ "."
   else:
     return "Premium ground shipping is cheapest. It would cost $" +str(premium)+ "."
-
-print(cheapest(41.5))
